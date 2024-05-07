@@ -1,0 +1,20 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[LegacySession: saved at previous logout]
+clientMachine1=localhost
+command1=firefox
+count=1
+
+[Session: saved at previous logout]
+clientId1=10b375732d000171499346400000019890004
+clientId2=10b375732d000171501697100000019890040
+count=2
+program1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier
+program2=/usr/bin/kde-add-printer
+restartCommand1=/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier,-session,10b375732d000171499346400000019890004_1715020584_410230
+restartCommand2=/usr/bin/kde-add-printer,-session,10b375732d000171501697100000019890040_1715020584_410309
+restartStyleHint1=0
+restartStyleHint2=0
+userId1=ahmed
+userId2=ahmed

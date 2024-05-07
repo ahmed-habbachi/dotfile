@@ -1,0 +1,8 @@
+[FileDialogSize]
+2 screens: Height=600
+2 screens: Width=980
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Pictures/geekwork.jpeg,file:$HOME/Pictures/geekwork.jpeg
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=16

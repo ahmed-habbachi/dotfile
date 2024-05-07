@@ -1,0 +1,18 @@
+- 1.1.11+dfsg-2
+- _NAME: Marathon Mouse M705 (M-R0073)
+  _absent: [hi-res-scroll, lowres-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert, thumb-scroll-mode, onboard_profiles, report_rate, report_rate_extended,
+    dpi, speed-change, backlight, backlight_level, backlight_duration_hands_out, backlight_duration_hands_in, backlight_duration_powered, backlight-timed,
+    led_control, led_zone_, fn-swap, persistent-remappable-keys, disable-keyboard-keys, crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led,
+    multiplatform, change-host, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer, adc_power_management]
+  _battery: 0x1000
+  _modelId: 406D00000000
+  _sensitive: {hires-scroll-mode: ignore, hires-smooth-invert: false, hires-smooth-resolution: ignore}
+  _serial: 1C0F09F9
+  _unitId: 8C74AABC
+  _wpid: 406D
+  divert-keys: {0x52: 0x0, 0x53: 0x0, 0x56: 0x0, 0x5b: 0x0, 0x5d: 0x0}
+  hires-scroll-mode: false
+  hires-smooth-invert: false
+  hires-smooth-resolution: true
+  pointer_speed: 0x100
+  reprogrammable-keys: {0x50: 0x50, 0x51: 0x51, 0x52: 0x52, 0x53: 0x53, 0x56: 0x56, 0x5b: 0x5b, 0x5d: 0x5d}
