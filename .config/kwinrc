@@ -3,8 +3,8 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 
 [Desktops]
 Id_1=13cb557f-ecfa-437c-a754-3aeb8ac90fd1
-Id_2=46d83787-3101-47a8-95b3-c6b03343771a
-Id_3=ecc3567c-7244-44ad-94eb-5295a0404a90
+Id_2=6033c3da-ad11-4759-bbe8-79361e13bcec
+Id_3=a0739988-0797-4998-b307-cb9564e3a42a
 Number=3
 Rows=1
 

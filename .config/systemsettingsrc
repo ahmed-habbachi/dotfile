@@ -1,11 +1,11 @@
 [KFileDialog Settings]
-Recent Files[$e]=geekwork.jpeg,file:$HOME/Pictures/geekwork.jpeg
-Recent URLs[$e]=file:$HOME/Pictures/
+Recent Files[$e]=geekwork.jpeg,file:$HOME/.startup-script.sh,file:$HOME/Pictures/geekwork.jpeg
+Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/
 detailViewIconSize=16
 
 [KPropertiesDialog]
 2 screens: Height=529
-2 screens: Width=441
+2 screens: Width=410
 
 [MainWindow]
 2 screens: Height=704

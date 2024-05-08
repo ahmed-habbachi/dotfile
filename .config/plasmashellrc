@@ -1,6 +1,9 @@
 [PlasmaTransientsConfig]
 PreloadWeight=0
 
+[PlasmaViews][Panel 126][Defaults]
+thickness=27
+
 [PlasmaViews][Panel 29][Defaults]
 thickness=44
 

@@ -8,6 +8,8 @@ Show Tab Bar=true
 Show Url Nav Bar=true
 
 [KFileDialog Settings]
+Recent Files[$e]=opener,file:$HOME/.config/lf/opener
+Recent URLs[$e]=file:$HOME/,file:$HOME/Downloads/,file:$HOME/.config/lf/
 detailViewIconSize=16
 
 [KTextEditor Document]
@@ -123,6 +125,9 @@ Vi Relative Line Numbers=false
 Word Completion=true
 Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
+
+[KTextEditor::Search]
+Search History=code,$wine,unarchive,setwallpaper,Attempting to download using aka.ms
 
 [MainWindow]
 2 screens: Window-Maximized=true

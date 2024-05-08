@@ -138,6 +138,9 @@ ForegroundVisited=82,148,226
 [General]
 ColorSchemeHash=d9ff32d1353be773aa923e0a9045d2cb014a9614
 
+[Icons]
+Theme=Tela-dracula
+
 [KDE]
 LookAndFeelPackage=com.github.vinceliuice.Qogir
 
@@ -153,7 +156,7 @@ Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=false
+Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
