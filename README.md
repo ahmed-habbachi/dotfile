@@ -7,13 +7,13 @@
 First make sure to add the alias to your .bashrc or .zsh file
 
 ```shell
-	alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 ```
 
 then we make sure to ignore the .cfg folder (it contains our git config)
 
 ```shell
-	echo ".cfg" >> .gitignore
+echo ".cfg" >> .gitignore
 ```
 
 restart your terminal or source your your .bashrc or .zsh
@@ -23,13 +23,13 @@ restart your terminal or source your your .bashrc or .zsh
 now we can safly clone our repository to our $HOME folder
 
 ```shell
-	git clone --bare <this-git-repo-url> $HOME/.cfg
+git clone --bare <this-git-repo-url> $HOME/.cfg
 ```
 
 then we checkout the content
 
 ```shell
-	config checkout
+config checkout
 ```
 
 this step might fail with a message like:
@@ -45,18 +45,18 @@ backup the files or remove them then checkout again with the same comand
 Set the flag showUntrackedFiles to no on this specific (local) repository:
 
 ```shell
-	config config --local status.showUntrackedFiles no
+config config --local status.showUntrackedFiles no
 ```
 
 You're done, from now on you can now type config commands to add and update your dotfiles:
 
 ```shell
-	config status
-	config add .vimrc
-	config commit -m "Add vimrc"
-	config add .bashrc
-	config commit -m "Add bashrc"
-	config push
+config status
+config add .vimrc
+config commit -m "Add vimrc"
+config add .bashrc
+config commit -m "Add bashrc"
+config push
 ```
 
 ## Starting from scratch
