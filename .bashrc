@@ -142,3 +142,27 @@ export PATH="$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+##-----------------------------------------------------
+## synth-shell-prompt.sh
+if [ -f /home/ahmed/.config/synth-shell/synth-shell-prompt.sh ] && [ -n "$( echo $- | grep i )" ]; then
+	source /home/ahmed/.config/synth-shell/synth-shell-prompt.sh
+fi
+
+##-----------------------------------------------------
+## better-ls
+if [ -f /home/ahmed/.config/synth-shell/better-ls.sh ] && [ -n "$( echo $- | grep i )" ]; then
+	source /home/ahmed/.config/synth-shell/better-ls.sh
+fi
+
+##-----------------------------------------------------
+## alias
+if [ -f /home/ahmed/.config/synth-shell/alias.sh ] && [ -n "$( echo $- | grep i )" ]; then
+	source /home/ahmed/.config/synth-shell/alias.sh
+fi
+
+##-----------------------------------------------------
+## better-history
+if [ -f /home/ahmed/.config/synth-shell/better-history.sh ] && [ -n "$( echo $- | grep i )" ]; then
+	source /home/ahmed/.config/synth-shell/better-history.sh
+fi
