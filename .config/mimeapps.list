@@ -1,7 +1,0 @@
-[Added Associations]
-application/vnd.debian.binary-package=org.kde.discover.desktop;qapt-deb-installer.desktop;org.kde.ark.desktop;
-
-[Default Applications]
-application/vnd.debian.binary-package=org.kde.discover.desktop;
-x-scheme-handler/bitwarden=bitwarden.desktop
-x-scheme-handler/eclipse+command=_usr_share_dbeaver-ce_.desktop
