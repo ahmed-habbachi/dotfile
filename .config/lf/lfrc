@@ -126,9 +126,9 @@ map O push :open-with-gui<space> ## input application
 map o push :open-with-cli<space> ## input application
 
 # Movement
-map gD cd ~/development
-map gd cd ~/Downloads
-map gp cd ~/Pictures
+map gw cd ~/workspace
+map gD cd ~/Downloads
+map gP cd ~/Pictures
 map gc cd ~/.config
 map gv cd ~/videos
 map gs cd ~/.local/bin

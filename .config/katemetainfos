@@ -58,6 +58,18 @@ Mode Set By User=false
 Time=2024,5,8,15,49,53.834
 URL=file:///home/ahmed/.config/lf/icons
 
+[file:///home/ahmed/.config/lf/lfrc]
+Bookmarks=
+Checksum=4a17e67ac7a86b0493b7b2635f322869aad6a4d8
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2024,5,8,17,20,22.719
+URL=file:///home/ahmed/.config/lf/lfrc
+
 [file:///home/ahmed/.config/lf/opener]
 Bookmarks=
 Checksum=31f4107b3ed1c4004cd27cddf82bf93ff4a750cd
