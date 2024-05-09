@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "coc-json": ">=1.9.2",
+    "coc-css": ">=2.1.0",
+    "coc-tsserver": ">=2.2.0",
+    "coc-html": ">=1.8.0",
+    "coc-html-css-support": ">=0.5.2",
+    "coc-angular": ">=17.0.2",
+    "coc-sh": ">=1.2.2",
+    "coc-htmlhint": ">=0.6.1"
+  }
+}

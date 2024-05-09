@@ -74,11 +74,11 @@ filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 
 " Call the .vimrc.plug file
-if filereadable(expand("~/.vimrc.plug"))
-    source ~/.vimrc.plug
+if filereadable(expand("~/.config/.vimrc.plug"))
+    source ~/.config/.vimrc.plug
 endif
 
 " Call the .vimrc.map file
-if filereadable(expand("~/.vimrc.map"))
-    source ~/.vimrc.map
+if filereadable(expand("~/.config/.vimrc.map"))
+    source ~/.config/.vimrc.map
 endif
