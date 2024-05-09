@@ -78,3 +78,7 @@ if filereadable(expand("~/.vimrc.plug"))
     source ~/.vimrc.plug
 endif
 
+" Call the .vimrc.map file
+if filereadable(expand("~/.vimrc.map"))
+    source ~/.vimrc.map
+endif

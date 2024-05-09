@@ -1,0 +1,18 @@
+let mapleader=","
+
+" Navigation
+nnoremap <silent> <Leader>bn :bn<CR>
+nnoremap <silent> <Leader>bp :bp<CR>
+nnoremap <silent> <Leader>bd :bd<CR>
+
+" PLUGIN: FZF
+nnoremap <silent> <Leader>sb :Buffers<CR>
+nnoremap <silent> <C-f> :Files<CR>
+nnoremap <silent> <Leader>sf :Rg<CR>
+nnoremap <silent> <Leader>/ :BLines<CR>
+nnoremap <silent> <Leader>' :Marks<CR>
+nnoremap <silent> <Leader>sg :Commits<CR>
+nnoremap <silent> <Leader>H :Helptags<CR>
+nnoremap <silent> <Leader>hh :History<CR>
+nnoremap <silent> <Leader>h: :History:<CR>
+nnoremap <silent> <Leader>h/ :History/<CR> 
