@@ -17,8 +17,12 @@ while read -r p ; do sudo apt-get install -y $p ; done < <(cat << "EOF"
     htop
     tldr
     cmatrix
+    bat
 EOF
 )
+
+mkdir -p ~/.local/bin
+ln -s /usr/bin/batcat ~/.local/bin/bat
 
 echo " "
 echo installing the nice-to-have pre-requisites
@@ -33,6 +37,7 @@ sudo apt-get update
 
 while read -r p ; do sudo apt-get install -y $p ; done < <(cat << "EOF"
     lf
+    fzf
     trash-cli
     timeshift
     ncdu

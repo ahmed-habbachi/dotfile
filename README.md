@@ -74,3 +74,8 @@ The first line creates a folder ~/.cfg which is a Git bare repository that will 
 Then we create an alias config which we will use instead of the regular git when we want to interact with our configuration repository.
 We set a flag - local to the repository - to hide files we are not explicitly tracking yet. This is so that when you type config status and other commands later, files you are not interested in tracking will not show up as untracked.
 Also you can add the alias definition by hand to your .bashrc or use the the fourth line provided for convenience.
+
+## Customization
+
+To customize fzf you can relay to https://vitormv.github.io/fzf-themes/ to
+generate your own theme and use it in ~/.bashrc
