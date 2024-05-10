@@ -24,6 +24,8 @@ EOF
 mkdir -p ~/.local/bin
 ln -s /usr/bin/batcat ~/.local/bin/bat
 
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 echo " "
 echo installing the nice-to-have pre-requisites
 echo you have 5 seconds to proceed ...
