@@ -82,3 +82,5 @@ endif
 if filereadable(expand("~/.config/.vimrc.map"))
     source ~/.config/.vimrc.map
 endif
+
+set tags+=tags;$HOME

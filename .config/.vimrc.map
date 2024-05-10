@@ -15,4 +15,11 @@ nnoremap <silent> <Leader>sg :Commits<CR>
 nnoremap <silent> <Leader>H :Helptags<CR>
 nnoremap <silent> <Leader>hh :History<CR>
 nnoremap <silent> <Leader>h: :History:<CR>
-nnoremap <silent> <Leader>h/ :History/<CR> 
+nnoremap <silent> <Leader>h/ :History/<CR>
+
+" Formatting using prettier
+nmap <Leader>f <Plug>(Prettier)
+
+" Add copy to clipboard capability to vim using Ctrl+y
+noremap <silent> <C-y> "0y :call system("xclip -selection clipboard", @0)<CR>
+

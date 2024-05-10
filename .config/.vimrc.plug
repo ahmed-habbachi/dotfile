@@ -20,6 +20,9 @@ Plug 'ervandew/supertab'
 " CocInstall
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" Prettier for vim
+Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
+
 call plug#end()
 
 
