@@ -170,6 +170,10 @@ if [ -f /home/ahmed/.config/synth-shell/better-history.sh ] && [ -n "$( echo $- 
 	source /home/ahmed/.config/synth-shell/better-history.sh
 fi
 
-export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' --color=fg:-1,fg+:#d0d0d0,bg:-1,bg+:#262626 --color=hl:#5f87af,hl+:#5fd7ff,info:#afaf87,marker:#87ff00 --color=prompt:#d7005f,spinner:#af5fff,pointer:#af5fff,header:#87afaf --color=border:#767676,separator:#767676,label:#aeaeae,query:#d9d9d9 --border="rounded" --border-label="Search" --border-label-pos="0" --preview-window="border-rounded" --padding="1,1" --margin="2,10" --prompt="> " --marker=">" --pointer="◆" --separator="─" --scrollbar="│" --layout="reverse-list" --info="right"'
-
 PATH=~/.console-ninja/.bin:$PATH
+
+##-----------------------------------------------------
+## lf scripts
+source ~/.config/lf/lf.bash
+
+export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' --keep-right --color=fg:-1,fg+:#d0d0d0,bg:-1,bg+:#262626 --color=hl:#5f87af,hl+:#5fd7ff,info:#afaf87,marker:#87ff00 --color=prompt:#d7005f,spinner:#af5fff,pointer:#af5fff,header:#87afaf --color=border:#767676,separator:#767676,label:#aeaeae,query:#d9d9d9 --border="rounded" --border-label="Search" --border-label-pos="0" --preview-window="border-rounded" --padding="1,1" --margin="2,10" --prompt="> " --marker=">" --pointer="◆" --separator="─" --scrollbar="│" --layout="reverse-list" --info="right"'
