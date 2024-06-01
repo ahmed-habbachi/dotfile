@@ -109,6 +109,7 @@ alias vi='nvim'
 alias vim='nvim'
 alias vimdiff='nvim -d'
 export EDITOR=nvim
+export TERMINAL=/usr/bin/alacritty
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile

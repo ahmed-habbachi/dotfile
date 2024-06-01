@@ -62,7 +62,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec /usr/bin/alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -362,17 +362,17 @@ client.urgent           $ubgcolor       $ubgcolor           $textcolor      $ubg
 #}
 
 # Screen resolution
-exec_always xrandr --output Virtual-1 --mode "1920x1080"
+exec_always --no-startup-id /home/ahmed/.screenlayout/layout.sh 
 
 # Display Wallpaper
-exec_always feh --bg-fill Pictures/tianshu-liu.jpg
+exec_always feh --bg-fill Pictures/arch-linux-wallpaper.png
 
 # keybinding for i3lock
 bindsym $mod+l exec i3lock
 
 # Assign Programs to workspaces
-for_window [class="Alacritty"] move to workspace $ws1
-for_window [class="firefox"] move to workspace $ws2
+# for_window [class="Alacritty"] move to workspace $ws1
+# for_window [class="firefox"] move to workspace $ws2
 
 # Polybar launch script
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
