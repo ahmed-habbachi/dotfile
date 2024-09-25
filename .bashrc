@@ -187,3 +187,5 @@ export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' --keep-right --color=fg:-1,fg+:#d0d0d
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
+alias lzd='lazydocker'
+alias lzg='lazygit'

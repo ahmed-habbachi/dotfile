@@ -40,10 +40,30 @@ return {
 
 		-- keymap
 		vim.keymap.set("n", "<leader>n", ":Neotree filesystem reveal left<CR>")
+
+        require("neo-tree").setup({
+            window = {
+                mappings = {
+                    ["o"] = "system_open",
+                },
+            },
+            filesystem = {
+			    hijack_netrw_behavior = "open_current",
+                    filtered_items = {
+                        visible = true,
+                        hide_dotfiles = false,
+	                    hide_gitignored = true,
+	                    hide_by_name = {
+	                        '.git',
+	                        '.DS_Store',
+	                        'thumbs.db',
+                            'node_modules'
+	                    },
+	                    never_show = {}
+                    }
+		    },
+
+        })
 	end,
-	opts = {
-		filesystem = {
-			hijack_netrw_behavior = "open_current",
-		},
-	},
+	opts = {},
 }
