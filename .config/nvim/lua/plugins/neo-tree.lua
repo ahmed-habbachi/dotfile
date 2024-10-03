@@ -42,11 +42,6 @@ return {
 		vim.keymap.set("n", "<leader>n", ":Neotree filesystem reveal left<CR>")
 
         require("neo-tree").setup({
-            window = {
-                mappings = {
-                    ["o"] = "system_open",
-                },
-            },
             filesystem = {
 			    hijack_netrw_behavior = "open_current",
                     filtered_items = {

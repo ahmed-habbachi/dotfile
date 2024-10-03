@@ -15,7 +15,7 @@ return {
         config = function()
             require("mason-lspconfig").setup({
                 -- ensure_installed = {"lua_ls"}
-                ensure_installed = {"lua_ls", "angularls", "bashls", "csharp_ls", "cssls", "dockerls", "html", "jsonls", "tsserver", "remark_ls", "sqlls", "somesass_ls", "lemminx", "yamlls"}
+                ensure_installed = {"lua_ls", "angularls", "bashls", "csharp_ls", "cssls", "dockerls", "html", "jsonls", "ts_ls", "remark_ls", "sqlls", "somesass_ls", "lemminx", "yamlls"}
             })
         end
     },
@@ -28,7 +28,7 @@ return {
             local lspconfig = require("lspconfig")
             lspconfig.lua_ls.setup({capabilities = capabilities})
             --lspconfig.lua_ls.setup({})
-            lspconfig.tsserver.setup({capabilities = capabilities})
+            lspconfig.ts_ls.setup({capabilities = capabilities})
             --lspconfig.tsserver.setup({})
             lspconfig.html.setup({capabilities = capabilities})
             lspconfig.angularls.setup({capabilities = capabilities})
