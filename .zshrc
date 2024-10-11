@@ -113,6 +113,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+alias bat='batcat'
 alias vi='nvim'
 alias vim='nvim'
 alias vimdiff='nvim -d'
@@ -122,8 +123,19 @@ alias lzg='lazygit'
 
 alias config='/usr/bin/git --git-dir=/home/ahmed/.cfg/ --work-tree=/home/ahmed'
 
+
+# in your .bashrc/.zshrc/*rc
+alias bathelp='bat --plain --language=help'
+help() {
+    "$@" --help 2>&1 | bathelp
+}
+
+
 export EDITOR=nvim
 export TERMINAL=/usr/bin/alacritty
+
+## lf scripts
+source ~/.config/lf/lf.bash
 
 
 #Add ~/.local/bin to PATH
@@ -140,4 +152,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' --keep-right --color=fg:-1,fg+:#d0d0d0,bg:-1,bg+:#262626 --color=hl:#5f87af,hl+:#5fd7ff,info:#afaf87,marker:#87ff00 --color=prompt:#d7005f,spinner:#af5fff,pointer:#af5fff,header:#87afaf --color=border:#767676,separator:#767676,label:#aeaeae,query:#d9d9d9 --border="rounded" --border-label="Search" --border-label-pos="0" --preview-window="border-rounded" --padding="1,1" --margin="2,10" --prompt="> " --marker=">" --pointer="◆" --separator="─" --scrollbar="│" --layout="reverse-list" --info="right"'
+
+#Init zoxide
+eval "$(zoxide init zsh)"
+
+
+export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' --tmux bottom --keep-right --color=fg:-1,fg+:#d0d0d0,bg:-1,bg+:#262626 --color=hl:#5f87af,hl+:#5fd7ff,info:#afaf87,marker:#87ff00 --color=prompt:#d7005f,spinner:#af5fff,pointer:#af5fff,header:#87afaf --color=border:#767676,separator:#767676,label:#aeaeae,query:#d9d9d9 --border="rounded" --border-label="Search" --border-label-pos="0" --preview-window="border-rounded" --padding="1,1" --margin="2,10" --prompt="> " --marker=">" --pointer="◆" --separator="─" --scrollbar="│" --layout="reverse-list" --info="right" --preview "bat --color=always --style=numbers --line-range=:500 {}"'

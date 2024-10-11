@@ -43,9 +43,13 @@ return {
             lspconfig.somesass_ls.setup({capabilities = capabilities})
             lspconfig.lemminx.setup({capabilities = capabilities})
             lspconfig.yamlls.setup({capabilities = capabilities})
-            vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
-            vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
-            vim.keymap.set({'n', 'v'}, '<leader>ca', vim.lsp.buf.code_action, {})
+
+            vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
+            vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
+            vim.keymap.set('n', '<leader>gr', function() require('telescope.builtin').lsp_references() end, { noremap = true, silent = true })
+            vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})
+            vim.keymap.set("n", "<leader>rn", vim.lsp.buf.code_action, {})
+            vim.keymap.set('n', '<space>rn', vim.lsp.buf.rename, {})
         end
     }
 }
